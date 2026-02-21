@@ -1,28 +1,51 @@
-<<<<<<< HEAD
-# Air_Whiteboard
-Real-time gesture-controlled whiteboard built on Raspberry Pi using MediaPipe, OpenCV, and Edge AI optimization.
-=======
 # ✋ Air Whiteboard (Raspberry Pi)
 
-A real-time gesture-controlled whiteboard built with Python, OpenCV, and MediaPipe, optimized for Raspberry Pi.
+Real-time gesture-controlled whiteboard built on Raspberry Pi using MediaPipe, OpenCV, and optimized hand-tracking techniques.
 
-## Features
-- Point (index finger) to draw
-- Open hand to erase (with erase circle)
-- Pinky hover to change colors (top-right palette)
-- Two-hand support (Left/Right)
-- Stroke smoothing + curve rendering for smoother drawing
+---
 
-## Controls
-- **Index finger only** = Draw  
-- **Open hand** = Erase  
-- **Pinky hover on palette** = Change color  
-- `c` = Clear  
-- `q` = Quit  
+## 🎥 Demo
 
-## Install
+[▶ Watch Demo Video](demo.mp4)
+
+---
+
+## 🚀 Features
+
+- Point (index finger only) to draw
+- Open hand to erase (dynamic erase circle)
+- Pinky hover over palette to change colors
+- Two-hand support (Left / Right tracked independently)
+- One-Euro filtering for jitter reduction
+- Smooth curve rendering (Catmull-Rom interpolation)
+- Frame prediction between MediaPipe updates for higher perceived FPS
+
+---
+
+## 🎮 Controls
+
+- **Index finger only** → Draw  
+- **Open hand** → Erase  
+- **Pinky hover (extended)** → Change color  
+- `c` → Clear canvas  
+- `q` → Quit  
+
+---
+
+## 🛠 Tech Stack
+
+- Python
+- OpenCV
+- MediaPipe
+- NumPy
+- Raspberry Pi (optimized for low-latency tracking)
+
+---
+
+## 📦 Installation
+
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
->>>>>>> 17107c7 (Initial commit - Air Whiteboard v8)
+python air_whiteboard.py
