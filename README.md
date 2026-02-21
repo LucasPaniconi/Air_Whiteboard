@@ -1,6 +1,12 @@
 # ✋ Air Whiteboard (Raspberry Pi)
 
-Real-time gesture-controlled whiteboard built on Raspberry Pi using MediaPipe, OpenCV, and optimized hand-tracking techniques.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,opencv,raspberrypi,linux" height="55"/>
+</p>
+
+---
+
+This project focuses on real-time hand tracking, gesture recognition, latency reduction, and embedded AI optimization on low-power hardware.
 
 ---
 
@@ -10,22 +16,17 @@ Real-time gesture-controlled whiteboard built on Raspberry Pi using MediaPipe, O
   <img src="demo_preview.gif" width="700">
 </p>
 
-<p align="center">
-  <a href="demo.mp4">
-  </a>
-</p>
-
 ---
 
 ## 🚀 Features
 
-- Point (index finger only) to draw
-- Open hand to erase (dynamic erase circle)
-- Pinky hover over palette to change colors
-- Two-hand support (Left / Right tracked independently)
-- One-Euro filtering for jitter reduction
-- Smooth curve rendering (Catmull-Rom interpolation)
-- Frame prediction between MediaPipe updates for higher perceived FPS
+- Point (index finger only) to draw  
+- Open hand to erase (dynamic erase circle)  
+- Pinky hover over palette to change colors  
+- Two-hand support (Left / Right tracked independently)  
+- One-Euro filtering for jitter reduction  
+- Smooth curve rendering (Catmull-Rom interpolation)  
+- Frame prediction between MediaPipe updates for higher perceived FPS  
 
 ---
 
@@ -41,11 +42,11 @@ Real-time gesture-controlled whiteboard built on Raspberry Pi using MediaPipe, O
 
 ## 🛠 Tech Stack
 
-- Python
-- OpenCV
-- MediaPipe
-- NumPy
-- Raspberry Pi (optimized for low-latency tracking)
+- Python  
+- OpenCV  
+- MediaPipe  
+- NumPy  
+- Raspberry Pi (optimized for low-latency tracking)  
 
 ---
 
