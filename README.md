@@ -6,7 +6,7 @@ Real-time gesture-controlled whiteboard built on Raspberry Pi using MediaPipe, O
 
 ## 🎥 Demo
 
-[▶ Watch Demo Video](demo.mp4)
+[▶ Click here to watch the demo](demo.mp4)
 
 ---
 
